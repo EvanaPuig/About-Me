@@ -5,19 +5,35 @@
   android:layout_height="match_parent"
   android:orientation="vertical">
 
+  <ImageView
+    android:id="@+id/star_image"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/layout_margin"
+    android:contentDescription="@string/yellow_star"
+    app:srcCompat="@android:drawable/btn_star_big_on" />
+
+  <ScrollView
+    android:id="@+id/bio_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingEnd="@dimen/padding"
+    android:paddingStart="@dimen/padding">
+
     <TextView
-      android:id="@+id/name_text"
+      android:id="@+id/bio_text"
       style="@style/NameStyle"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="@string/name"
-      android:textAlignment="center" />
+      android:lineSpacingMultiplier="1.2"
+      android:text="@string/bio" />
+  </ScrollView>
 
-    <ImageView
-      android:id="@+id/star_image"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:layout_marginTop="@dimen/layout_margin"
-      android:contentDescription="@string/yellow_star"
-      app:srcCompat="@android:drawable/btn_star_big_on" />
+  <TextView
+    android:id="@+id/name_text"
+    style="@style/NameStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/name"
+    android:textAlignment="center" />
 </LinearLayout>
