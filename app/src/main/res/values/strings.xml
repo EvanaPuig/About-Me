@@ -13,4 +13,5 @@ Vestibulum vel commodo lacus. Lorem ipsum dolor sit amet, consectetur adipiscing
 
 Integer eu purus non ligula aliquet rutrum. Duis euismod ligula felis, ut dignissim tortor commodo ut. Suspendisse eget hendrerit quam. Aliquam faucibus imperdiet rutrum. Mauris egestas ante condimentum nunc condimentum, condimentum dapibus turpis tempus. Suspendisse laoreet, risus et blandit pharetra, mi arcu bibendum magna, ac faucibus sem nisi vel tortor. Phasellus lacus dui, aliquet at lectus et, maximus porta turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida elit quis felis ullamcorper, vitae sollicitudin purus convallis. Mauris scelerisque mauris nisl, et lacinia velit faucibus eu. Sed convallis pharetra lectus, at egestas orci condimentum sit amet. Sed eget justo sapien. Nullam sed volutpat metus. Vestibulum eleifend pharetra eros sed eleifend.</string>
   <string name="what_is_your_nickname">What is your Nickname?</string>
+  <string name="done">Done</string>
 </resources>
