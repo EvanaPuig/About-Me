@@ -7,3 +7,5 @@ A single-page app with the basic Android Views:
 * ImageView
 
 Performing DataBinding to update and use the data in the screen.
+
+![](images/AboutMeDemo.gif)
